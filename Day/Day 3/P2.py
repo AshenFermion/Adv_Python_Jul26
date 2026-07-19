@@ -2,8 +2,8 @@ def say_hello(name):
     return f"Hello, {name}!"
 greet_function = say_hello
 
-print(greet_function("Rakesh"))
-print(say_hello("Rakesh"))
+print(greet_function("Abhijeet"))
+print(say_hello("Abhijeet"))
 
 def apply_operation(func,value):
     return func(value)
