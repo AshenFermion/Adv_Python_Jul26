@@ -3,11 +3,6 @@ from registry.registry import ProductRegistry
 
 
 class ProductMeta(ABCMeta):
-    """
-    Custom metaclass that combines ABC functionality with
-    automatic product registration.
-    """
-
     def __new__(mcls, name, bases, namespace):
         cls = super().__new__(mcls, name, bases, namespace)
 
