@@ -9,8 +9,8 @@ squared = list(map(lambda x:x**2,numbers))
 print(squared)
 
 student = {
-    'name':'Rakesh',
-    'age':36,
+    'name':'Abhijeet',
+    'age':21,
     'grade': lambda x: f"Grade: {x}%"
 }
 print(student['grade'](91))
