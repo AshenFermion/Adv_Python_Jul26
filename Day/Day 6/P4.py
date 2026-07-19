@@ -14,7 +14,7 @@ class CountDown:
         self.current -= 1
         return value
         
-print("Coundown")
+print("Countdown")
 countdown = CountDown(5)
 print(next(countdown))
 print(next(countdown))
